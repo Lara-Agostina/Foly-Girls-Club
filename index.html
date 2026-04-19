@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foly Girls Club | Sitio Oficial</title>
+    <!-- Google Fonts Premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome para Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fondo Principal Dinámico -->
+    <div class="main-background">
+        <img src="assets/club_background.png" class="bg-img" alt="Fondo Foly Girls Club">
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Foly Girls <span class="heart-pulse">♡</span></a>
+            
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#about">Nosotras</a>
+                <a href="#equipo">Equipo</a>
+                <a href="#comunidad">Comunidad</a>
+            </div>
+
+            <!-- Botón social en desktop -->
+            <a href="https://www.instagram.com/folygirls.club/" target="_blank" class="nav-social-btn">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+
+            <!-- Menú hamburguesa (Móviles) -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Menú desplegable para celulares -->
+        <div class="mobile-menu">
+            <a href="#inicio" class="mobile-link">Inicio</a>
+            <a href="#about" class="mobile-link">Nosotras</a>
+            <a href="#equipo" class="mobile-link">Equipo</a>
+            <a href="#comunidad" class="mobile-link">Comunidad</a>
+            <a href="https://www.instagram.com/folygirls.club/" target="_blank" class="mobile-link hl-link"><i class="fab fa-instagram"></i> Ir al Instagram</a>
+        </div>
+    </nav>
+
+    <!-- PORTADA (HERO SECTION) -->
+    <header id="inicio" class="hero-section">
+        <div class="hero-content scroll-reveal">
+            <h1 class="hero-title">Bienvenidas a <br><span class="highlight">Foly Girls Club</span></h1>
+            <p class="hero-subtitle">El espacio donde la creatividad, la amistad y el empoderamiento femenino en LATAM se unen para crear cosas increíbles.</p>
+            <div class="hero-buttons">
+                <a href="https://www.instagram.com/folygirls.club/?utm_source=ig_web_button_share_sheet" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-instagram"></i> Síguenos en Instagram
+                </a>
+                <a href="#about" class="btn btn-secondary">Conocer más ↓</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ACERCA DE NOSOTRAS -->
+    <section id="about" class="about-section">
+        <div class="section-container scroll-reveal">
+            <div class="about-text glass-panel">
+                <h2 class="section-title"><i class="fas fa-star"></i> Quiénes Somos</h2>
+                <p><strong>Foly Girls Club</strong> es más que una simple comunidad; es un rincón diseñado por y para chicas donde compartimos nuestros intereses, pasiones, crecimiento personal y eventos únicos.</p>
+                <p>Nacimos con la visión de conectar mentes brillantes a lo largo y ancho de nuestra región. Aquí encontrarás apoyo incondicional, inspiración diaria y, sobre todo, una hermandad que celebra cada uno de tus logros.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <span>Comunidad Segura</span>
+                    </div>
+                    <div class="stat">
+                        <h3>LATAM</h3>
+                        <span>Presencia</span>
+                    </div>
+                    <div class="stat">
+                        <h3>+Eventos</h3>
+                        <span>Exclusivos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTRO EQUIPO -->
+    <section id="equipo" class="team-section">
+        <div class="section-container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title"><i class="fas fa-crown"></i> Nuestro Equipo</h2>
+                <p class="section-subtitle">Conoce a las administradoras y miembros fundadoras que hacen posible que este club crezca día a día.</p>
+            </div>
+
+            <div class="team-grid">
+                
+                <!-- Tarjeta Admin -->
+                <div class="team-card glass-panel scroll-reveal delay-1">
+                    <div class="team-card-banner admin-theme"></div>
+                    <div class="avatar-container">
+                        <img src="mifotodeperfil.png" alt="Admin Lara" class="avatar-img">
+                        <div class="role-tag admin-tag">Administradora</div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Lara</h3>
+                        <p class="role-desc">Fundadora & Gestión General</p>
+                        <a href="https://www.instagram.com/laraagostinaok/?__pwa=1" target="_blank" class="ig-link-btn">
+                            <i class="fab fa-instagram"></i> @laraagostinaok
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Miembro -->
+                <div class="team-card glass-panel scroll-reveal delay-2">
+                    <div class="team-card-banner member-theme"></div>
+                    <div class="avatar-container">
+                        <img src="assets/member_avatar.png" alt="Miembro Name" class="avatar-img">
+                        <div class="role-tag member-tag">Miembro</div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Name</h3>
+                        <p class="role-desc">Directora de Creatividad</p>
+                        <a href="https://www.instagram.com/folygirls.club/" target="_blank" class="ig-link-btn">
+                            <i class="fab fa-instagram"></i> @member_fgc
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Puedes copiar y pegar el bloque <div class="team-card..."> arriba para añadir más chicas! -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- COMUNIDAD / ENLACES ÚTILES -->
+    <section id="comunidad" class="community-section">
+        <div class="section-container">
+            <h2 class="section-title text-center scroll-reveal"><i class="fas fa-link"></i> Comunidad Activa</h2>
+            <div class="links-grid scroll-reveal delay-1">
+                <a href="#" class="action-btn whatsapp-btn">
+                    <div class="icon-circle"><i class="fab fa-whatsapp"></i></div>
+                    <div class="btn-text">
+                        <h4>Grupo de WhatsApp</h4>
+                        <p>Chatea y conéctate con nosotras</p>
+                    </div>
+                </a>
+                
+                <a href="#" class="action-btn discord-btn">
+                    <div class="icon-circle"><i class="fab fa-discord"></i></div>
+                    <div class="btn-text">
+                        <h4>Servidor Discord</h4>
+                        <p>Noches de películas y juegos</p>
+                    </div>
+                </a>
+
+                <a href="#" class="action-btn calendar-btn">
+                    <div class="icon-circle"><i class="far fa-calendar-alt"></i></div>
+                    <div class="btn-text">
+                        <h4>Próximos Eventos</h4>
+                        <p>Revisa el calendario del mes</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container glass-panel">
+            <div class="footer-brand">
+                <h2>Foly Girls Club</h2>
+                <p>Reescribiendo las reglas de la amistad digital en LATAM.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/folygirls.club/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Foly Girls Club. Todos los derechos reservados. Creado con 💖</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script de interactividad -->
+    <script src="script.js"></script>
+</body>
+</html>
