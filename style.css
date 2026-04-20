@@ -113,7 +113,7 @@ body {
 .action-btn { background: var(--glass-bg); backdrop-filter: blur(10px); border: 2px solid white; border-radius: 20px; padding: 1.5rem; display: flex; align-items: center; gap: 1.5rem; text-decoration: none; color: var(--clr-text-main); transition: 0.3s; }
 .action-btn:hover { background: white; transform: translateY(-5px); box-shadow: 0 10px 25px rgba(255,101,142,0.15); }
 .icon-circle { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; color: white; flex-shrink: 0; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-.whatsapp-btn .icon-circle { background: #25d366; }
+.whatsapp-btn .icon-circle { background: #f3425f;  }
 .discord-btn .icon-circle { background: #5865F2; }
 .calendar-btn .icon-circle { background: #ffd166; color: #e07a5f; }
 .btn-text h4 { font-size: 1.2rem; font-weight: 800; margin-bottom: 0.2rem; }
